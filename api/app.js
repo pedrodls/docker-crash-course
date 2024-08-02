@@ -7,7 +7,7 @@ const server = express();
 server.use(cors())
 
 server.get("/", (req, res) => {
-    res.json({status: "Iam alive"})
+    res.json({status: "I'm alive"})
 })
 
 server.listen(4000, () => {
