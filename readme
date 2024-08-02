@@ -1,0 +1,5 @@
+#Docker crash course
+
+Enable sync from original code to source code layer in container
+
+-- docker run --name containerName -p 4000:4000 --rm -v originalCodePath:/app_layer_folder_name -v /app_layer_folder_name/node_modules imageName
